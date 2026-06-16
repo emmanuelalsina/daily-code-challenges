@@ -14,22 +14,16 @@
 # - El parámetro siempre será un número entero positivo
 # - Devuelve el resultado como número entero
 #
-# MI LÓGICA EN PAPEL:
-# Primero necesitamos input para que el usuario pueda colocar los minutos, lo podemos guardar en la variable minutos
-# creamos una variable segundos para guardar dentro de ella la operacion que transforma min a seg
-# creamos una funcion y le pasamos el parametro la variable 
-#dentro de la funcion ejecutamos la c¿variable que hace la conversion
-#retornamos el resultado a la variable seg
-# mostramos el resultado en pantalla con f- strng para darle mas experiencia de usuario.
-#podemos hacer lo mismo con el inicio del programa
+# MI LÓGICA EN PAPEL
+
+# creamos una funcion llamada "convert" cuyo parametro sera la cantidad de minutos que se requieran para hacer la conversión a segundos
+#retornamos el resultado del parámetro multplicado por 60 (1 min = 60 seg)
 
 
 
 
 def convert(min):
-    seg = int(min * 60)
-
-    return seg
+    return int(min * 60)
 
 
 print(convert(5))
