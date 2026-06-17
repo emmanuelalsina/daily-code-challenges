@@ -12,7 +12,8 @@
 
 def elegible_beca(promedio, ingresos_familiares, es_atleta):
     #aprovecha al 100% el cortocircuito lógico: 
-    #si alguien viene con promedio de 7.0, Python lee la primera condición, da False y ni se molesta en mirar los ingresos ni si es atleta.
+    #Entra el promedio. Si es menor a 8.5, el flujo se corta de inmediato (False). Eficiencia pura.
+    #Si pasa ese filtro, entra a la zona del or. Si es atleta, el flujo se aprueba de inmediato (True) sin importar cuánto dinero gane su familia.
     return  promedio >= 8.5 and (ingresos_familiares < 10000 or es_atleta)
   
 
