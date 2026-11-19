@@ -1,22 +1,14 @@
 # Daily Code Challenges 🚀
 
-Este repositorio es mi espacio de entrenamiento diario como estudiante de Ingeniería en Software.
-Aquí documento mi resolución de problemas de lógica, optimización y estructuras de datos
-utilizando **Python** y **Java**, aplicando la metodología de desarrollo diario de 15 minutos.
+Repositorio de entrenamiento práctico en **Python** enfocado en lógica de programación, estructuras de datos y resolución de problemas aplicados al desarrollo Backend.
 
-## 🎯 Mi Rutina Semanal
-- **Lunes y Jueves:** Diseño de lógica y pseudocódigo en papel.
-- **Martes y Viernes:** Implementación y optimización en Python.
-- **Miércoles y Sábado:** Traducción estricta y tipado fuerte en Java.
-
-## 📁 Tecnologías y Plataformas
-- Lenguajes: Python 3, Java (JDK 17)
-- Plataformas de retos: Edabit (Principiante), HackerRank (Intermedio), LeetCode (Avanzado)
+## 🧠 Metodología (4 sesiones/semana · máx. 30 min)
+1. **Análisis en papel:** Definición estricta de *Entradas → Proceso (en español) → Salida* antes de escribir código.
+2. **Implementación limpia:** Traducción a Python aplicando buenas prácticas y manejo de errores.
+3. **Control de versiones:** Commit diario por cada reto resuelto.
 
 ## 📂 Estructura
-- `Python/1-Principiante` — Retos básicos de lógica en Python
-- `Python/2-Intermedio` — Estructuras de datos en Python
-- `Python/3-Avanzado` — Algoritmos avanzados en Python
-- `Java/1-Principiante` — Retos básicos de lógica en Java
-- `Java/2-Intermedio` — Estructuras de datos en Java
-- `Java/3-Avanzado` — Algoritmos avanzados en Java
+- `Python/1-Principiante` — Fundamentos, condicionales, bucles y lógica matemática básica
+- `Python/2-Intermedio` — Manipulación de listas, diccionarios, validaciones y archivos
+- `Python/3-Avanzado` — Algoritmos complejos y optimización
+- `Java/` — *(Archivo histórico de prácticas iniciales)*
